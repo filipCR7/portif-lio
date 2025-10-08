@@ -1,0 +1,247 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+nav {
+  padding: 20px;
+  background: #303030;
+  color: white;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 40px;
+  padding: 10px;
+}
+
+nav a:hover {
+  background: #707070;
+  transition: 0,5s;
+  border-radius: 5px;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+#conteudo {
+  text-align: center;
+  padding-bottom: 100vh;
+  padding-top: 100px;
+}
+
+#botao a {
+  padding: 10px;
+  background: #303030;
+  border-radius: 30px;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+
+}
+
+#botao a:hover {
+  transition: 0,5s;
+  background: #707070;
+}
+
+#conteudo2 {
+  text-align: center;
+  padding-bottom: 100vh;
+  padding-top: 100px;
+  background-color: #ededed;
+}
+
+#portifolio_pessoal {
+  padding: 40px;
+  background: white;
+  width: 30%;
+  border-radius: 15px;
+  justify-content: center;
+  margin-left: 100px;
+  margin-bottom: 10px;
+  margin-right: 100px;
+  box-shadow: 5px 5px 5px 5px  #CF2E08;
+}
+
+#portifolio_pessoal a {
+  padding: 15px;
+  border-radius: 10px;
+  color: white;
+  background: #303030;
+  text-decoration: none;
+}
+
+#portifolio_pessoal h5 {
+  font-size: 160%;
+}
+
+#portifolio_pessoal h4 {
+  height: 40px;
+  font-size: 100%;
+}
+
+#portifolio_pessoal img{
+  width: 40px;
+  margin-right: 10px;
+}
+
+#portifolio a:hover{
+  background:  #707070;
+  transition: 0,5s;
+}
+
+#loja_virtual {
+  padding: 40px;
+  background: white;
+  width: 30%;
+  border-radius: 15px;
+  justify-content: center;
+  margin-left: 100px;
+  margin-bottom: 10px;
+  margin-right: 100px;
+  box-shadow: 5px 5px 5px 5px  #CF2E08;
+  display: inline-block;
+}
+
+#loja_virtual a {
+  padding: 15px;
+  border-radius: 10px;
+  color: white;
+  background: #303030;
+  text-decoration: none
+}
+
+#loja_virtual h5 {
+  font-size: 160%;
+}
+
+#loja_virtual img{
+  width: 50px;
+}
+
+#dashboard {
+  padding: 40px;
+  background: white;
+  width: 30%;
+  border-radius: 15px;
+  justify-content: center;
+  margin-left: 100px;
+  margin-bottom: 10px;
+  margin-right: 100px;
+  box-shadow: 5px 5px 5px 5px  #CF2E08;
+  display: inline-block;
+}
+
+#dashboard a {
+  padding: 15px;
+  border-radius: 10px;
+  color: white;
+  background: #303030;
+  text-decoration: none
+}
+
+#dashboard h4{
+  height: 40px;
+  font-size: 100%;
+}
+
+#dashboard h5 {
+  font-size: 160%;
+} 
+
+#dashboard img{
+  width: 40px;
+}
+
+#conteudo3 {
+  text-align: center;
+  padding-bottom: 100vh;
+  padding-top: 100px;
+  background-color: #cfcfcf;
+}
+
+#formulario {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  gap: 15px;
+}
+
+#formulario input{
+  width: 100%;
+  height: 50%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 150px;
+}
+
+
+#formulario textarea{
+  width: 132%;
+  height: 150%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 50px;
+}
+
+#WhatsApp button{
+  padding: 20px;
+  border: none;
+  width: 600px;
+  height: 50px;
+}
+
+#WhatsApp button{
+  padding: 10px;
+  background: #303030;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+#WhatsApp a:hover {
+  transition: 0,5s;
+  background: #707070;d
+}
+
+#redsociais {
+  padding: 20px;
+
+}
+
+#redsociais a{
+  padding: 20px;
+  background: #c07ae6;
+  border-radius: 2000000px;
+  text-decoration: none;
+  color: white;
+  margin-right: 10px;
+
+}
+
+#redsociais a:hover {
+  transition: 1.5s;
+  background: #990fa3;
+}
+
+#redsociais img{
+  width: 20px;
+  margin-left: 10px;
+}
+
+#cr7{
+  display: flex;
+
+}
+
+#zapzap{
+  text-align: center;
+}
