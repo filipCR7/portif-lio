@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Página Inicial</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+     <nav>
+        <a href="#conteudo">Início</a>
+        <a href="#conteudo2">Projetos</a>
+        <a href=#conteudo3>Sobre</a>
+     </nav>
+
+    <div id="conteudo">
+       <img src="papaicris7.jpg" width="200px">
+       <h1>Filipe Caetano</h1>
+       <h3>Desenvolvedor web</h3>
+       
+       <div id="h5">
+       <h5>Bem vindo ao meu portifólio! Aqui você encontra alguns dos meus projetos e um pouco da minha trajetória 
+          como programador.</h5>
+      </div>
+
+       <div id="botao">
+         <a href="#">Ver meus projetos</a>
+       </div>
+    </div>
+ 
+       <div id="conteudo2">
+         <h1>Projetos</h1>
+          <h4>Alguns trabalhos que desenvolvi: </h4>
+          
+
+          <div id="cr7">
+          <div id="portifolio_pessoal">
+              <h5> <img src="globo.png">
+                 Portifólio Pessoal</h5>
+              <h4>Meu site de apresentação pessoal com informações e projetos.</h4>
+              <a href="#">Ver projeto</a>
+           </div>
+
+          <div id="loja_virtual">
+               <h5> <img src="carrocompra.png">
+                  Loja Virtual</h5>
+               <h4>Protótipo de e-commerce com carrinho de compras em JavaScript.</h4>
+               <a href="#">Ver projeto</a>
+            </div>
+
+          <div id="dashboard">
+             <h5> <img src="grafico.png">
+                Dashboard de Dados</h5>
+             <h4>Painel interativo para a viisualização de métricas e gráficos.</h4>
+             <a href="#">Ver projeto</a>
+          </div>
+          </div>
+      </div>
+    </div>
+
+   <div id="conteudo3">
+      <h1>Contato</h1>       
+       <h4>Entre em contato comigo pelo WhatsApp preenchendo o formulário abaixo:</h4>
+
+      <form id="zapzap">
+      <div id="formulario">
+         <input type="text" id="nome" placeholder="Seu nome" required> <br><br>
+         <input type="email" id="email" placeholder="Seu e-mail" required> <br><br>
+         <textarea id="mensagem" placeholder="Digite sua mensagem" required> </textarea> <br><br>
+      </div>
+
+      <div id="WhatsApp">
+         <button type="subimit">Enviar no WhatsApp</button>
+      </div>
+
+      <div id="redsociais">
+         <h2>Me siga nas minhas redes sociais</h2>
+         <img src="Instagram_icon.png.webp" width="30px">
+         <a href="https://instagram.com/filipe_alcae208">Instagram</a>
+      </div>
+   </div>
+
+    <script>
+       document.getElementById("whatsappForm").addEventListener("subimit ", function (e) {
+          e.proventDefault();
+          const nome = document.getElementById("nome").value;
+          const email= document.getElementById("email").value;
+          const mensagem = document.getElementById("mensagem").value;
+
+          const texto = `Olá, meu nome é ${nome} (${email}) e gostaria de falar: ${mensagem}`;
+          const url = `https://wa.me/5527999557919?text=${encodeURIComponent(texto)}`;
+
+          window.open(url, "_blank");
+       });
+       
+    </script>
+</body>
+
+</html>
